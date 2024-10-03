@@ -1,13 +1,6 @@
-let number1 = parseInt(prompt("Enter the starting number:"));
-let number2 = parseInt(prompt("Enter the ending number:"));
+let var1 = parseInt(prompt("Enter your first number:"))
+let var2 = parseInt(prompt("Enter your second number:"))
 
-if (isNaN(number1) || isNaN(number2)) {
-    console.log('Please provide valid numbers.');
-    
+for (var1; var1 <= var2; var1++) {
+    console.log(var1)
 }
-
-for (let i = number1; i <= number2; i++) {
-    console.log(i);
-}
-
-
